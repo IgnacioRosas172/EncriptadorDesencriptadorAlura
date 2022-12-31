@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <p class="parrafoTitulo">Encriptador y desencriptador</p>
+        </div>
+    </header>
+    <div class="contenedorTexto">
+        <textarea name="textarea" id="input-texto" placeholder="Ingrese el texto aqui" rows="30" cols="70"></textarea>
+        <p class="advertencia">*Ingresar texto en minúsculas y sin acentos</p>
+    </div>
+    <div class="botones">
+        <input class="botonEncriptar" type="button" id="btn-encriptar" value="Encriptar"></button>
+        <input class="botonDesencriptar" type="button" id="btn-desencriptar" value="Desencriptar"></button>
+    </div>
+    <div class="textoResultado">
+        <textarea name="textarea" id="mensaje-texto" placeholder=" Texto de salida" rows="30" cols="70" readonly="readonly"></textarea>
+        <input class="botonCopiar" type="button" id="btn-copiar" value="Copiar"></button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

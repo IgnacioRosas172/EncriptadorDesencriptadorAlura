@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    background: #121212;
+}
+
+.parrafoTitulo{
+    font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        font-size: 50px;
+        margin-left: 40px;
+}
+
+.contenedorTexto{
+    height: auto;
+    width: auto;
+    margin-left: 400px;
+    margin-top: 90px;
+}
+
+.textoResultado{
+    height: auto;
+    width: auto;
+    margin-left: 1000px;
+    margin-top: -511px;
+}
+
+.advertencia {
+    font-family:Verdana,Helvetica;
+    color:white;
+}
+
+.botones {
+    position: absolute;
+    bottom: 150px;
+    height: auto;
+    width: auto;
+    margin-left: 770px;
+    
+}
+
+.botonEncriptar{
+    font-size:30px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        border-radius:30px;
+        background: linear-gradient(180deg, #FFA07A 0%, #CD5C5C 50%,  #00C8E0 50%, #7DDFEE 100%);
+        background-size: 1px 100px;
+        transition: all .3s;
+        margin-right: 10px;
+}
+
+.botonEncriptar:hover {
+    background-position: 0 -50px;
+    transition: all .3s;
+}
+
+.botonDesencriptar{
+    font-size:30px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        border-radius:30px;
+        background: linear-gradient(180deg, #00C8E0 0%, #7DDFEE 50%, #FFA07A 50%, #CD5C5C 100%);
+        background-size: 1px 100px;
+        transition: all .3s;
+}
+
+.botonDesencriptar:hover {
+    background-position: 0 -50px;
+    transition: all .3s;
+}
+
+.botonCopiar{
+    font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        border-radius:30px;
+        background: linear-gradient(180deg, #82E0AA 0%, #239B56 50%, #76D7C4 50%, #148F77 100%);
+        background-size: 1px 100px;
+        transition: all .3s;
+}
+
+.botonCopiar:hover {
+    background-position: 0 -50px;
+    transition: all .3s;
+}
